@@ -6,6 +6,8 @@ Toolkit is a suite of open-source developer tools for initializing, configuring,
 
 All of the applications in the toolkit suite are completely standalone and can be used without knowledge of the other applications. However, all of the applications share the same core API, so by learning any one of the applications, you will know how to begin using all of them.
 
+Visit toolkit.io (coming soon) for more information.
+
 ## Suite
 
 Tookit applications are organized into the following categories:
@@ -21,16 +23,16 @@ Tookit applications are organized into the following categories:
 
 ### Lifecycle
 
-Developer frameworks and command line tools for the major "stages" of the software development lifecycle:
+Developer frameworks and command line tools for the aspects software development lifecycle:
 
-1. [generate](https://github.com/generate/generate): create
-2. [assemble](https://github.com/assemble/assemble): build
-3. [verb](https://github.com/verbose/verb): document
-4. [update](https://github.com/update/update): maintain
+1. [generate](https://github.com/generate/generate): create projects
+2. [assemble](https://github.com/assemble/assemble): build projects
+3. [verb](https://github.com/verbose/verb): document projects
+4. [update](https://github.com/update/update): maintain projects
 
 ### Configuration
 
-Tools and conventions for defining portable, re-usable, declarative configurations.
+Tools and conventions for defining and using portable, re-usable, declarative configurations.
 
 * [boilerplate](https://github.com/jonschlinkert/boilerplate):
 * [scaffold](https://github.com/jonschlinkert/scaffold)
