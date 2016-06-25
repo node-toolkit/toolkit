@@ -1,0 +1,51 @@
+{
+  "name": "getting-started",
+  "description": "Getting started with toolkit.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jonschlinkert/getting-started",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/getting-started",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/getting-started/issues"
+  },
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "getting",
+    "started"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.9"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "minimal",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "assemble",
+      "base",
+      "boilerplate",
+      "generate",
+      "scaffold",
+      "snippet",
+      "templates",
+      "update",
+      "verb",
+      "verb-readme-generator"
+    ]
+  }
+}
