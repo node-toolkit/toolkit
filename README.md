@@ -23,7 +23,7 @@ Tookit applications are organized into the following categories:
 
 ### Lifecycle
 
-Developer frameworks and command line tools for the aspects software development lifecycle:
+Developer frameworks and command line tools for major aspects of the software development lifecycle:
 
 1. [generate](https://github.com/generate/generate): create projects
 2. [assemble](https://github.com/assemble/assemble): build projects
