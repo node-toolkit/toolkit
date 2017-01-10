@@ -45,7 +45,15 @@
       "templates",
       "update",
       "verb",
-      "verb-readme-generator"
-    ]
+      "verb-readme-generator",
+      "angular",
+      "ember",
+      "express",
+      "koa",
+      "react"
+    ],
+    "related": {
+      "list": []
+    }
   }
 }
