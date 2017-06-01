@@ -1,5 +1,6 @@
 {
   "name": "getting-started",
+  "private": true,
   "description": "Getting started with toolkit.",
   "version": "0.0.0",
   "homepage": "https://github.com/jonschlinkert/getting-started",
@@ -8,21 +9,21 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/getting-started/issues"
   },
-  "private": true,
   "license": "MIT",
+  "files": [],
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12"
+  },
   "keywords": [
     "getting",
     "started"
   ],
-  "devDependencies": {
-    "gulp-format-md": "^0.1.9"
-  },
   "verb": {
     "toc": false,
     "layout": "minimal",
@@ -36,21 +37,21 @@
       "reflinks": true
     },
     "reflinks": [
+      "angular",
       "assemble",
       "base",
       "boilerplate",
+      "ember",
+      "express",
       "generate",
+      "koa",
+      "react",
       "scaffold",
       "snippet",
       "templates",
       "update",
       "verb",
-      "verb-readme-generator",
-      "angular",
-      "ember",
-      "express",
-      "koa",
-      "react"
+      "verb-readme-generator"
     ],
     "related": {
       "list": []
