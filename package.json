@@ -51,7 +51,9 @@
       "templates",
       "update",
       "verb",
-      "verb-readme-generator"
+      "verb-readme-generator",
+      "enquirer",
+      "microbot"
     ],
     "related": {
       "list": []
