@@ -1,5 +1,7 @@
 # Getting started with toolkit
 
+> Toolkit makes humans scalable
+
 ## What is toolkit?
 
 Toolkit is a suite of open-source developer tools for initializing, configuring, building, documenting and maintaining code projects.
@@ -16,9 +18,9 @@ Moreover, all of the applications share the same core API, so by learning any on
 
 **Create applications**
 
-Whether you're creating a web server with [express](http://expressjs.com/) or [koa](https://github.com/koajs/koa), a web application using [react](https://facebook.github.io/react/), [ember](https://github.com/emberjs/ember) or [angular](http://angularjs.org), or your own build system, toolkit has frameworks and tools that can be used to expedite the process.
+Whether you're creating a web server with [express](http://expressjs.com/) or [koa](https://github.com/koajs/koa), a web application using [react](https://facebook.github.io/react/), [ember](https://github.com/emberjs/ember) or [angular](http://angularjs.org), or your own build system, `toolkit` has tools that can be used to expedite the process.
 
-Visit toolkit.io (coming soon) for more information.
+~~(coming soon) Visit toolkit.io for more information.~~
 
 ## What does toolkit do?
 
@@ -29,9 +31,11 @@ Tookit applications are organized into the following categories:
 3. [lifecycle](#lifecycle)
 4. [automation](#automation)
 
+_(Any of the tools in the `toolkit` suite may be used standalone, but they work even better together.)_
+
 ### Building blocks
 
-Create an "instant API" for your node.js application. These "building blocks" are used as
+These "building blocks" are used as as starting point, providing an "instant API" for your node.js application:
 
 * [base](https://github.com/node-base/base): Bare-bones starting point for creating a high quality node.js application. Build out your API by using plugins like building blocks. All of other the applications in the toolkit suite were created using Base.
 * [templates](https://github.com/jonschlinkert/templates): System for creating and managing template collections, and rendering templates with any node.js template engine. Can be used as the basis for creating a static site generator, blog framework, documentaton system, and so on.
@@ -40,13 +44,11 @@ Create an "instant API" for your node.js application. These "building blocks" ar
 
 Tools and conventions for defining, using and publishing declarative configurations for projects, components and templates.
 
-**Tools**
-
 * [boilerplate](https://github.com/jonschlinkert/boilerplate): Describes all of the necessary files, templates and settings required to initialize a complete, new project.
 * [scaffold](https://github.com/jonschlinkert/scaffold): Describes all of the necessary files, templates and settings required to initialize a complete, new project.
 * [snippet](https://github.com/jonschlinkert/snippet): Tools and conventions for creating, using and publishing invidual snippets of code or text.
 
-**Synopsis**
+**Why is this useful?**
 
 By keeping a separation of concerns between configuration and everything else (application logic, flow control, etc), we can use _plain, generic javascript, with prescriptive conventions to describe commonly needed objects, files, templates, and assets_.
 
@@ -54,9 +56,7 @@ As a result, projects are lower complexity, easier to maintain, and the objects 
 
 ### Lifecycle
 
-Developer frameworks and command line tools that address common phases of the software development lifecycle. Each of these tools can be used standalone, but they work even better together.
-
-**Tools**
+Developer frameworks and command line tools for common phases of the software development lifecycle.
 
 * [generate](https://github.com/generate/generate): scaffold out new projects
 * [assemble](https://github.com/assemble/assemble): build projects
@@ -64,9 +64,11 @@ Developer frameworks and command line tools that address common phases of the so
 
 ### Automation
 
+These tools can be used during and throughout any point of the software development lifecycle to automate notifications, updates, and statuses, as well as conversions and interactions with users.
+
 * [enquirer](http://enquirer.io): Plugin-based prompt system, to automate interactions and conversations with users.
 * [microbot](https://github.com/microbot/microbot): Empower your applications and users with automated responses, actions and notifications.
-* [update](https://github.com/update/update): Automate updates for virtually any aspect of a project.
+* [update](https://github.com/update/update): Automate boring and time consuming chores that are typically done manually, for virtually any aspect of a project.
 
 ## Author
 
